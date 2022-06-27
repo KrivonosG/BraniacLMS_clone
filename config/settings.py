@@ -69,7 +69,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": ["BraniacLMS_clone/templates", "BraniacLMS_clone/mainapp/templates"],
-        #    "DIRS": ["templates", "mainapp/templates"],
+        # "DIRS": ["templates", "mainapp/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -230,3 +230,4 @@ EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 EMAIL_FILE_PATH = "var/email-messages/"
 
 LOCALE_PATHS = [BASE_DIR / "locale"]
+SELENIUM_DRIVER_PATH_FF = BASE_DIR / "var" / "selenium" / "geckodriver"
