@@ -68,6 +68,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": ["BraniacLMS_clone/templates", "BraniacLMS_clone/mainapp/templates"],
+        #    "DIRS": ["templates", "mainapp/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
